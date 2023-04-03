@@ -9,7 +9,7 @@ This is a C-based Client/Server socket application. It supports several commands
 -   To use this application, clone the repository to your local machine.
 -   Open the terminal and navigate to the project directory.
 -   Run `make` to build the executable files for both the client and server.
--   Run the server executable by change directory to `server` and typing `./server` in the terminal. Default `<IP_ADDRESS>` is `127.0.0.7` and `<PORT>` is `8080`, but you can change it as you want .
+-   Run the server executable by change directory to `server` and typing `./server` in the terminal. Default `<IP_ADDRESS>` is `127.0.0.1` and `<PORT>` is `8080`, but you can change it as you want .
 -   Run the client executable in other terminal window, navigate to the project directories `client` directory and typing `./client` in the terminal. To connect the server type `connect` command with `<IP_ADDRESS>` the IP address of the server and `<PORT>` the port number you set for the server.
 -   Once connected, use the following commands to interact with the server:
     -   `shell "COMMAND"`.    
